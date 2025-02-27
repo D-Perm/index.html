@@ -10,10 +10,10 @@
                 color: blue;
                 font-family: 'Times New Roman', Times, serif;
             }
-            button {
-                background-color: rgb(255, 0, 0);
-                color: white;
-                padding: 15px 32px;
+            button:hover {
+                background-color: rgb(59, 241, 87);
+                color: rgb(210, 30, 30);
+                padding: 10px 10px;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
@@ -21,25 +21,29 @@
                 margin: 4px 2px;
                 cursor: pointer;
                 border-radius: 12px;
+                }
+                .vertical-buttons button {
+            display: block;
+            margin-bottom: 10px; /* Space between buttons */
             }
         </style>
     </head>
     <body>
         <h1>Hello There!</h1>
         <p>My name is Daniel Dao.</p>
-        <p>I am a 7th grader that loves playing with Rubik's Cubes.
-        <img height="300" width="300"/>    
+        <img src="Dao_Brothers.image.png" alt="Image of me(right) and my brother(left)" alt: Me(Right) and my brother(Left)height="300" width="500"/>
+        <p>I am a 7th grader that loves playing with Rubik's Cubes.   
         <p>My mains are the <strong><em>Gan 12 Maglev UV</em></strong>(Link below) and the <strong><em>X-Man Tornado V3 Pioneer UV</em></strong>(Also link below)</p>
         <p>My favorite event is 3x3, and my PB is 9.2 seconds. I average around 15 seconds(still trying to get that sub 10 ao5!)</p>
         <h3>Here are some of my favorite websites:</h3>
-        <ol>
-            <li><a href="https://www.speedsolving.com/">Speedsolving</a></li>
-            <li><a href="https://www.cubeskills.com/">CubeSkills</a></li>
-            <li><a href="https://www.cubing.net/">Cubing.net</a></li>
-            <li><a href="https://bestsiteever.ru/zbll/#/select">bestsiteever.ru</a></li>
-            <li><a href="https://speedcubeshop.com/products/gan-12-3x3-magnetic-maglev-uv-coated?variant=40241918247025">Gan 12 Maglev UV(Discount Code:JPerm!)</a></li>
-            <li><a href="https://speedcubeshop.com/products/x-man-tornado-v3-3x3-magnetic-pioneer-uv-coated?_pos=1&_sid=7f067c343&_ss=r&variant=40241903927409">X-Man Tornado V3 Pioneer UV</a></li>
-        </ol>
+        <div class="vertical-buttons">
+            <button><li><a href="https://cstimer.net/">CSTimer</a></li></button>
+            <button><li><a href="https://www.youtube.com/channel/UCTrb6qcYgOjj2Wh-9iQnmsQ">Brian Sun (Best Algs)</a></li></button>
+            <button><li><a href="https://www.speedcubedb.com/">SpeedCubeDataBase (Largest database of good algs)</a></li></button>
+            <button><li><a href="https://bestsiteever.ru/zbll/#/select">bestsiteever.ru</a></li></button>
+            <button><li><a href="https://speedcubeshop.com/products/gan-12-3x3-magnetic-maglev-uv-coated?variant=40241918247025">Gan 12 Maglev UV</a></li></button>
+            <button><li><a href="https://speedcubeshop.com/products/x-man-tornado-v3-3x3-magnetic-pioneer-uv-coated?_pos=1&_sid=7f067c343&_ss=r&variant=40241903927409">X-Man Tornado V3 Pioneer UV</a></li></button>
+        </div>
         <h3>Other 3x3 cubes that I recommend(price low to high):</h3>
         <ul>
             <li><a href="https://speedcubeshop.com/products/moyu-rs3-m-v5-3x3-magnetic-dual-adjustment?_pos=4&_sid=a989f3a7c&_ss=r&variant=40256520061041">MoYu RS3 M V5 3x3 (Magnetic, Dual-Adjustment)</a></li>
